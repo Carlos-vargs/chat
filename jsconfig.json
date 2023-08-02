@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "target": "ES2020",
+        "jsx": "react",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./resources/js/components/*"],
+            "@theme/*": ["/resources/js/theme/*"],
+            "@layouts/*": ["/resources/js/layouts/*"],
+            "@pages/*": ["/resources/js/pages/*"],
+            "@icons/*": ["/resources/js/resources/icons/*"],
+            "@images/*": ["/resources/js/resources/images/*"],
+            "@contexts/*": ["/resources/js/contexts/*"]
+        }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}
