@@ -6,8 +6,28 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@iconify/react": "^4.1.1",
         "axios": "^1.1.2",
+        "laravel-echo": "^1.15.1",
         "laravel-vite-plugin": "^0.7.5",
+        "pusher-js": "^8.2.0",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^2.6.1",
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@inertiajs/react": "^1.0.6",
+        "@tiptap/extension-placeholder": "^2.0.3",
+        "@tiptap/pm": "^2.0.3",
+        "@tiptap/react": "^2.0.3",
+        "@tiptap/starter-kit": "^2.0.3",
+        "date-fns": "^2.30.0",
+        "framer-motion": "^10.12.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "volta": {
+        "node": "18.16.0"
     }
 }
