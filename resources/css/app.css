@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+}
+
+.editorContent {
+    flex: 1;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    outline: none;
+    max-width: max(300px, min(calc(962px - 20px), 962px));
+}
+
+.chakra-popover__popper {
+    z-index: var(--chakra-zIndices-sticky) !important;
+}
+
+.editorContent .ProseMirror {
+    outline: none !important;
+    padding: 11.5px 16px;
+    width: var(--chakra-sizes-full);
+    font-size: var(--chakra-fontSizes-sm);
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+    color: #adb5bd;
+    content: attr(data-placeholder);
+    float: left;
+    height: 0;
+    opacity: 1;
+    position: relative;
+    font-size: var(--chakra-fontSizes-sm);
+    pointer-events: none;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #d0d6db;
+    border-radius: 7px;
+}
